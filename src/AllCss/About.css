@@ -1,0 +1,54 @@
+/* Base styles */
+.About {
+  background-color: #dbd7d7;
+  padding: 40px;
+  text-align: center;
+
+}
+
+.AboutContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.AboutTitle h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+.AboutText {
+  padding: 20px;
+  margin: 20px;
+  justify-content: center;
+  display: flex;
+
+}
+.AboutText img{
+  width: 600px;
+  height: 400px;
+}
+.lrpic{
+  margin: 10px;
+}
+.lrtext{
+  font-size: 20px;
+}
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+  .AboutTitle h2 {
+    font-size: 20px;
+  }
+
+  .AboutLine {
+    width: 30%;
+  }
+
+  .AboutText {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+  

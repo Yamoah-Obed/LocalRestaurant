@@ -1,0 +1,52 @@
+.Menu {
+  background-color: #cfcdcd;
+  padding: 40px;
+  text-align: center;
+  
+}
+
+.MenuContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.MenuTitle h2{
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.Menu p{
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.menuListContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.menuList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Mmenu {
+  border-radius: 15px;
+  width: 300px;
+  height: auto;
+  margin: 20px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  
+}
+.Mmenu:hover {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+.Menu img{
+  width: 300px;
+  height:180px ;
+}

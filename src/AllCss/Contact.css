@@ -1,0 +1,60 @@
+
+.Contact {
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .ContactContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .ContactTitle h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+ .lrinfo{
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+ }
+  
+  form {
+    margin: 0 auto;
+    width: 500px;
+    
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button.submit {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .othercontact{
+    background-color: #161615;
+    width: 600px;
+  }
+
+  .othercontact div{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+  }
